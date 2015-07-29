@@ -10,8 +10,9 @@ module.exports = function render(state) {
     ]);
 
     function renderFruit(fruitName) {
-        return h("li", [
-            h("span", fruitName)
+        var f = h("li", [
+            h('fruit-elmt', {attributes: {name: fruitName}})
         ]);
+        return f;
     }
 };
