@@ -9,14 +9,7 @@ var loop = mainLoop(initState, render, {
     diff: require("virtual-dom/diff"),
     patch: require("virtual-dom/patch")
 });
-document.body.appendChild(loop.target);
 
-// update the loop with the new application state
-loop.update({
-    fruits: ["apple", "banana", "cherry"],
-    name: "Steve"
-});
-loop.update({
-    fruits: ["apple", "banana", "plum"],
-    name: "Stevie"
-});
+document.getElementById('content').appendChild(loop.target);
+
+module.exports = loop.update;

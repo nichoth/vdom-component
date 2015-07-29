@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "main-loop": "^3.1.0",
-    "virtual-dom": "^2.1.0"
+    "virtual-dom": "2.0.1"
   }
 }

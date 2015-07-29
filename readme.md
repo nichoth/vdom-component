@@ -6,5 +6,5 @@ See
 
 * https://github.com/staltz/mvi-wc-poc
 * https://github.com/Matt-Esch/virtual-dom/issues/111
-
+* https://github.com/webcomponents/hello-world-element
 
