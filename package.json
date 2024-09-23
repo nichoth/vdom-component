@@ -5,7 +5,7 @@
     "build": "browserify -d browser/main.js > public/bundle.js"
   },
   "devDependencies": {
-    "ecstatic": "^0.8.0"
+    "ecstatic": "^4.1.4"
   },
   "dependencies": {
     "main-loop": "^3.1.0",
